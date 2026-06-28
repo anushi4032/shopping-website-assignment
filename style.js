@@ -30,7 +30,7 @@ async function getproductdetails(id){
     let detailsBox = document.querySelector("#single-product-container");;
     document.querySelector("#div1").style.display = "none";  
     document.querySelector("#div2").style.display = "block";
-    detailsBox.innerHTML+=`
+    detailsBox.innerHTML=`
         <h2>${productdetails.title}</h2>
         <img src="${productdetails.images[0]}" width="250">
         <p>${productdetails.description}</p>
